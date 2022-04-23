@@ -3,13 +3,15 @@
     --purple: #BB99DD;
 }
 .principalBox{
-    border: solid 1px red;
     width: 400px;
     margin: auto;
     padding: 15px;
+    margin-top: 50px;
+    border: solid 1px #f7f7f7;
+    box-shadow: 0px 3px 3px 0px rgb(223, 223, 223);
+    border-radius: 10px;
 }
 .contentBox{
-    border: solid 1px rgb(0, 255, 179);
     width: 150px;
     margin: auto;
 }
@@ -24,6 +26,7 @@
     margin-bottom: 20px;
 }
 .content li, .content a{
+    color: var(--purple);
     list-style: none;
     text-decoration: none;
     font-weight: 600;
@@ -37,7 +40,7 @@
     margin-bottom: 20px;
 }
 .content li:hover{
-    background-color: #b182e0;
+    background-color: #e5cefd;
 }
 .content a:hover{
     color: #fff;
@@ -45,9 +48,6 @@
 p{
     text-align: center;
     color: grey;
-}
-.redesSociais{
-    border: 1px solid red;
 }
 .redesSociais img{
     width: 20px;
