@@ -54,6 +54,8 @@ p{
 }
 .contentIcon{
     margin: auto;
-    width: 150px;
-    border: solid 1px rgb(38, 0, 255);
+    width: 180px;
+}
+.contentIcon img{
+    margin-left: 20px;
 }
