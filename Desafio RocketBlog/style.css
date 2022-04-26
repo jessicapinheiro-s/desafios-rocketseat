@@ -1,7 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 header{
     display: flex;
     width: 100%;
@@ -37,5 +34,30 @@ nav a{
 .imgTopbox{
     width: 50%;
     border: 1px rgb(17, 20, 173) solid;
+}
+main{
+    border: solid 1px yellow;
+}
+.second{
+    padding: 30px;
+    display: flex;
+}
+.imgSecond{
+    width: 50%;
+}
+.second article{
+    width: 50%;
+}
+.third{
+    border: solid 1px rgb(255, 0, 221);
+    display: flex;
+    width: 100%;
+}
+.third section {
+    width: 28%;
+    display: block;
+    margin: auto;
+    border: solid 1px blue;
+    padding: 15px;
 }
 
