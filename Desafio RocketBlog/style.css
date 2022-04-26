@@ -1,63 +1,125 @@
-
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
 header{
     display: flex;
     width: 100%;
-    border: 1px red solid;
-    height: 70px;
+    background-color: var(--purple-bg);
+    color: var(--white);
+    align-items: center;
 }
+.allHeader{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+}
+
 header h1, header .searchBar{
-    border: 1px red solid;
-    width: 30%;
+    width: 25%;
+    margin: 50px;
+    border: solid 1px red;
 }
 header nav{
-    border: 1px red solid;
-    width: 40%;
+    width: 50%;
+    text-align: center;
+    border: solid 1px red;
+}
+header input{
+    border: none;
+    outline: none;
+    width: 50%;
+    background-color: var(--dark-bg);
+    color: var(--white);
+    padding: 15px;
 }
 nav li{
-    display: inline-block;
+    display:inline;
+    margin-right: 30px;
 }
 nav a{
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: var(--white);
 }
 .topBox{
-    border: 1px rgb(2, 2, 2) solid;
-    height: 200px;
     width: 100%;
-    display: flex;
+    background-color: var(--purple-bg);
+    color: var(--light-purple);
+    border-bottom: var(--green) solid 5px ;
 }
 .contentTopBox{
-    border: 1px rgb(17, 173, 152) solid;
-    width: 50%;
+    width: 40%;
+    margin: 15px;
+    margin-right: 235px;
 }
 .imgTopbox{
-    width: 50%;
-    border: 1px rgb(17, 20, 173) solid;
+    width: 40%; 
+    margin-bottom: 40px;
+}
+.imgTopbox img{
+    width: 550px;
+}
+.allTopbox{
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+.allTopbox h1{
+    color: var(--button-bg);
+    margin-bottom: 20px;
+}
+.allTopbox a{
+    text-decoration: none;
+    color: var(--button-bg);
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 main{
-    border: solid 1px yellow;
+    margin: auto;
+    width: 85%;
+    margin-top: 60px;
 }
 .second{
-    padding: 30px;
     display: flex;
 }
 .imgSecond{
     width: 50%;
+    border: solid 1px red;
+    margin-bottom: 20px;
+}
+.imgSecond img, .imgSecond p{
+    width: 90%;
 }
 .second article{
     width: 50%;
+    border: solid 1px red;
+    margin-bottom: 20px;
+}
+.second article h2 , .second article p{
+    width: 60%;
 }
 .third{
-    border: solid 1px rgb(255, 0, 221);
     display: flex;
     width: 100%;
+    border: solid 1px red;
+}
+.third p{
+    text-align: justify;
 }
 .third section {
-    width: 28%;
-    display: block;
+    width: 25%;
     margin: auto;
-    border: solid 1px blue;
-    padding: 15px;
+    border: solid 1px red;
+}
+.third img{
+    width: 100%;
 }
 
