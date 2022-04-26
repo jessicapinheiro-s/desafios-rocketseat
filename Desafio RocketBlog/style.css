@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    width: 100%;
+    border: 1px red solid;
+    height: 70px;
+}
+header h1, header .searchBar{
+    border: 1px red solid;
+    width: 30%;
+}
+header nav{
+    border: 1px red solid;
+    width: 40%;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.topBox{
+    border: 1px rgb(2, 2, 2) solid;
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.contentTopBox{
+    border: 1px rgb(17, 173, 152) solid;
+    width: 50%;
+}
+.imgTopbox{
+    width: 50%;
+    border: 1px rgb(17, 20, 173) solid;
+}
+
