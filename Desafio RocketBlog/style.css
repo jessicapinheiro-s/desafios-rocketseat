@@ -56,19 +56,25 @@ nav a{
     width: 100%;
     background-color: var(--purple-bg);
     color: var(--light-purple);
+    padding: 30px;
     border-bottom: var(--green) solid 5px ;
+    border: solid 1px var(--green);
+
 }
 .contentTopBox{
     width: 40%;
-    margin: 15px;
-    margin-right: 235px;
+    margin-right: 50px;
+    border: solid 1px var(--green);
+
 }
 .imgTopbox{
-    width: 40%; 
+    width: 45%; 
     margin-bottom: 40px;
+    border: solid 1px var(--green);
+
 }
 .imgTopbox img{
-    width: 550px;
+    width: 600px;
 }
 .allTopbox{
     width: 85%;
@@ -78,6 +84,7 @@ nav a{
 .allTopbox h1{
     color: var(--button-bg);
     margin-bottom: 20px;
+    font-size: 2rem;
 }
 .allTopbox a{
     text-decoration: none;
