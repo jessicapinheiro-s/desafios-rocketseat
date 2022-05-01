@@ -23,20 +23,25 @@ header{
 header h1, header .searchBar{
     width: 25%;
     margin: 50px;
-    border: solid 1px red;
 }
 header nav{
     width: 50%;
     text-align: center;
-    border: solid 1px red;
 }
 header input{
     border: none;
     outline: none;
-    width: 50%;
+    width: 70%;
     background-color: var(--dark-bg);
     color: var(--white);
     padding: 15px;
+}
+.searchBar img{
+    width: 15%;
+}
+.searchBar{
+    display: flex;
+    background-color: var(--button-bg);
 }
 nav li{
     display:inline;
@@ -82,6 +87,9 @@ p{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+h2{
+    color: var(--purple-bg);
+}
 main{
     margin: auto;
     width: 85%;
@@ -89,10 +97,12 @@ main{
 }
 .second{
     display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 96%;
 }
 .imgSecond{
     width: 50%;
-    border: solid 1px red;
     margin-bottom: 20px;
 }
 .imgSecond img, .imgSecond p{
@@ -100,26 +110,35 @@ main{
 }
 .second article{
     width: 50%;
-    border: solid 1px red;
     margin-bottom: 20px;
 }
 .second article h2 , .second article p{
-    width: 60%;
+    width: 70%;
 }
 .third{
     display: flex;
     width: 100%;
-    border: solid 1px red;
+
 }
 .third p{
     text-align: justify;
 }
 .third section {
-    width: 25%;
+    width: 30%;
     margin: auto;
-    border: solid 1px red;
 }
 .third img{
     width: 100%;
 }
+article{
+    margin-left: 50px;
+}
+.topLink img{
+    width: 20px;
+    margin-left: 5px;
+}
+.topLink{
+    display: flex;
+}
+
 
