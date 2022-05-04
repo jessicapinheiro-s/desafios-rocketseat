@@ -16,10 +16,9 @@ header{
 .allHeader{
     display: flex;
     margin: auto;
-    width: 90%;
+    width: 88%;
     align-items: center;
 }
-
 header h1, header .searchBar{
     width: 25%;
     margin: 50px;
@@ -32,12 +31,14 @@ header input{
     border: none;
     outline: none;
     width: 70%;
+    margin-right: 8px;
     background-color: var(--dark-bg);
     color: var(--white);
     padding: 15px;
 }
 .searchBar img{
-    width: 15%;
+    width: 20px;
+    height: 40px;
 }
 .searchBar{
     display: flex;
@@ -58,14 +59,24 @@ nav a{
     color: var(--light-purple);  
     border-bottom: var(--green) solid 5px ;
 }
+.topLink img{
+    width: 20px;
+    margin-left: 5px;
+}
+.topLink{
+    display: flex;
+}
 .contentTopBox{
     width: 40%;
     margin-right: 180px;
-    border: solid 1px var(--green);
+}
+.contentTopBox p, .second p, .third p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 .imgTopbox{
     width: 45%; 
-    border: solid 1px var(--green);
 }
 .imgTopbox img{
     width: 600px;
@@ -75,7 +86,6 @@ nav a{
     margin: auto;
     display: flex;
     padding-bottom: 50px ;
-    border: solid 1px var(--green);
 }
 .allTopbox h1{
     color: var(--button-bg);
@@ -86,12 +96,9 @@ nav a{
     text-decoration: none;
     color: var(--button-bg);
 }
-p{
-    margin-top: 20px;
+#data{
+    margin-top: 5px;
     margin-bottom: 20px;
-}
-h2{
-    color: var(--purple-bg);
 }
 main{
     margin: auto;
@@ -104,16 +111,20 @@ main{
     margin-bottom: 40px;
     width: 96%;
 }
+.second h2, .third h2{
+    color: var(--purple-bg);
+}
 .imgSecond{
     width: 50%;
-    margin-bottom: 20px;
+}
+article{
+    margin-left: 100px;
 }
 .imgSecond img, .imgSecond p{
     width: 90%;
 }
 .second article{
     width: 50%;
-    margin-bottom: 20px;
 }
 .second article h2 , .second article p{
     width: 70%;
@@ -121,10 +132,6 @@ main{
 .third{
     display: flex;
     width: 100%;
-
-}
-.third p{
-    text-align: justify;
 }
 .third section {
     width: 30%;
@@ -133,15 +140,6 @@ main{
 .third img{
     width: 100%;
 }
-article{
-    margin-left: 50px;
-}
-.topLink img{
-    width: 20px;
-    margin-left: 5px;
-}
-.topLink{
-    display: flex;
-}
+
 
 
