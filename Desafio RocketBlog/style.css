@@ -55,31 +55,27 @@ nav a{
 .topBox{
     width: 100%;
     background-color: var(--purple-bg);
-    color: var(--light-purple);
-    padding: 30px;
+    color: var(--light-purple);  
     border-bottom: var(--green) solid 5px ;
-    border: solid 1px var(--green);
-
 }
 .contentTopBox{
     width: 40%;
-    margin-right: 50px;
+    margin-right: 180px;
     border: solid 1px var(--green);
-
 }
 .imgTopbox{
     width: 45%; 
-    margin-bottom: 40px;
     border: solid 1px var(--green);
-
 }
 .imgTopbox img{
     width: 600px;
 }
 .allTopbox{
-    width: 85%;
+    width: 82%;
     margin: auto;
     display: flex;
+    padding-bottom: 50px ;
+    border: solid 1px var(--green);
 }
 .allTopbox h1{
     color: var(--button-bg);
