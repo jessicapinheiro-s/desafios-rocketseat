@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    width: 100%;
+    background-color: var(--purple-bg);
+    color: var(--white);
+    align-items: center;
+}
+.topBox{
+    width: 100%;
+    background-color: var(--purple-bg);
+    color: var(--light-purple);  
+    border-bottom: var(--green) solid 5px ;
+}
+.allTopbox{
+    width: 82%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px ;
+}
+main{
+    margin: auto;
+    width: 85%;
+    margin-top: 60px;
+}
+.second{
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 96%;
+}
+.third{
+    display: flex;
+    width: 100%;
+}
