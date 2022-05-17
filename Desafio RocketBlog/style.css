@@ -6,13 +6,6 @@
     --light-purple: #fbf6ff;
     --green: #4fff4b;
 }
-
-.allHeader{
-    display: flex;
-    margin: auto;
-    width: 88%;
-    align-items: center;
-}
 header h1, header .searchBar{
     width: 25%;
     margin: 50px;
@@ -101,7 +94,6 @@ article{
 .second article h2 , .second article p{
     width: 70%;
 }
-
 .third section {
     width: 30%;
     margin: auto;

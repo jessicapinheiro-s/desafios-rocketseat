@@ -5,6 +5,12 @@ header{
     color: var(--white);
     align-items: center;
 }
+.allHeader{
+    display: flex;
+    margin: auto;
+    width: 88%;
+    align-items: center;
+}
 .topBox{
     width: 100%;
     background-color: var(--purple-bg);
