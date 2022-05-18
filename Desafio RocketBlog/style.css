@@ -17,7 +17,7 @@ header nav{
 header input{
     border: none;
     outline: none;
-    width: 70%;
+    width: 75%;
     margin-right: 8px;
     background-color: var(--dark-bg);
     color: var(--white);
