@@ -1,0 +1,42 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+:root {
+    --button: #FF0000;
+    --main-background:  #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+}
+body{
+    background-color: var(--background);
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    border: solid red 1px;
+    font-weight: 700;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.price{
+    width: 35% ;
+    border: solid red 1px;
+}
+footer{
+    display: flex;
+    border: solid red 1px;
+}
+.proxPage{
+    background-color: #000;
+    color: #fff;
+}
