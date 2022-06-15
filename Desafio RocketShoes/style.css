@@ -14,27 +14,91 @@ body{
     background-color: var(--background);
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     font-family: 'Roboto', sans-serif;
+    font-size: 1em;
 }
 header{
-    display: flex;
-    border: solid red 1px;
     font-weight: 700;
+    width: 100%;
+}
+header div{
+    border: solid red 1px;
+}
+.header{
+    display: flex;
+    padding: 20px;
+}
+.menu{
+    width: 50%;
 }
 .menu ul{
     list-style: none;
     display: flex;
 }
 .menu li{
-    margin-right: 10px;
-    margin-left: 10px;
+    width: 25%;
+}
+.search input{
+    border: none;
+    padding: 10px;
+}
+main{
+    width: 100%;
+    display: flex;
+}
+.tenis{
+    border: solid red 1px;
+    width: 75%;
+    padding: 50px;
+    background-color: var(--main-background);
 }
 .price{
-    width: 35% ;
+    border: solid red 1px;
+    width: 30% ;
+    padding: 80px 50px;
+}
+.price h1{
+    font-size: 2.5em;
+}
+.price p{
+    margin-top: 5px;
+    color: var(--text-description);
+}
+.price h2{
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.price button{
+    padding: 20px;
+    width: 40%;
+    border:  none;
+    background-color: var(--button);
+    color: #fff;
+}
+.imgPrincipal img{
+    max-width: 450px ;
     border: solid red 1px;
 }
 footer{
     display: flex;
     border: solid red 1px;
+}
+footer div{
+    border: solid red 1px;
+    padding: 40px; 
+}
+.redessociais ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.redessociais a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: var(--text);
+    font-weight: 700;
+}
+.redessociais ul{
+    display: flex;
 }
 .proxPage{
     background-color: #000;
