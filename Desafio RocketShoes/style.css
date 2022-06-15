@@ -45,11 +45,21 @@ main{
     width: 100%;
     display: flex;
 }
-.tenis{
-    border: solid red 1px;
-    width: 75%;
+.galeriaTenis{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns:  1fr;
+    width: 60%;
     padding: 50px;
     background-color: var(--main-background);
+}
+.galeria{
+    display: flex;
+    margin-top: 20px;
+}
+.galeria div{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .price{
     border: solid red 1px;
