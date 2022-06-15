@@ -61,6 +61,9 @@ main{
     margin-left: 10px;
     margin-right: 10px;
 }
+.imgPrincipal img{
+    max-width: 450px ;
+}
 .price{
     border: solid red 1px;
     width: 30% ;
@@ -84,10 +87,6 @@ main{
     border:  none;
     background-color: var(--button);
     color: #fff;
-}
-.imgPrincipal img{
-    max-width: 450px ;
-    border: solid red 1px;
 }
 footer{
     display: flex;
