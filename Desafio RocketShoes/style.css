@@ -89,18 +89,23 @@ main{
     color: #fff;
 }
 footer{
-    display: flex;
-    border: solid red 1px;
+    width: 100%;
+    display: flex ;
 }
 footer div{
     border: solid red 1px;
-    padding: 40px; 
+    margin: 0;
+    padding: 50px; 
+}
+.video{
+    width: 8%;
 }
 .redessociais ul li{
     list-style: none;
     text-decoration: none;
 }
 .redessociais a{
+    width: 70%;
     text-decoration: none;
     margin-right: 50px;
     color: var(--text);
@@ -112,4 +117,11 @@ footer div{
 .proxPage{
     background-color: #000;
     color: #fff;
+    width: 15%;
+    text-align: center;
+}
+.proxPage a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
 }
